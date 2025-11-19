@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 # Configuración del bot
-DISCORD_TOKEN = 'MTMxNTIxMDMxMDMzNjEyMjk1Mg.GWiBTt.EnZ5ha09pELJWNO3ayFk6QE61AbzDQuMgh4Psg'
-CHANNEL_ID = 1337618186501226587  # ID del canal específico
+DISCORD_TOKEN = '' #Agregar aqui el ID de tu bot de discord :)
+CHANNEL_ID = ""  # Agregar el ID en el que el bot trabajara
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
